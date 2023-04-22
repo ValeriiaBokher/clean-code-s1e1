@@ -24,7 +24,7 @@
 
   .div-main { text-align: center;
   }
-  
+
 }
 
 .main-element {
@@ -44,16 +44,16 @@
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -134,7 +134,7 @@ li {
 
 .input-text {
   width: 226px;
-  display:none;
+  display: none;
 }
 
 .delete-img {
@@ -156,10 +156,10 @@ li {
 /* Edit Task */
 
 .edit-mode input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode label {
-  display:none;
+  display: none;
 }
