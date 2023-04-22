@@ -139,6 +139,6 @@ li {
   width:224px
 }
 
-label-edit-mode {
+.edit-mode label {
   display:none;
 }
