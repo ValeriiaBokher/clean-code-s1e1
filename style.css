@@ -114,7 +114,8 @@ li {
   width: 226px;
 }
 .input-text {
-  width: 226px
+  width: 226px;
+  display:none;
 }
 .delete-img {
   height: 2em;
@@ -132,15 +133,12 @@ li {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
-  display:none
-}
 
-ul li.edit-mode input[type="text"] {
+.edit-mode input[type="text"] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+label-edit-mode {
   display:none;
 }

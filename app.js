@@ -96,6 +96,7 @@ var editTask=function(){
         //switch to .editmode
         //label becomes the inputs value.
         label.innerText=editInput.value;
+        label.classList.add('label-edit-mode');
         editBtn.innerText="Edit";
     }else{
         editInput.value=label.innerText;
@@ -138,6 +139,7 @@ var taskIncomplete=function(){
     //Append the task list item to the #incompleteTasks.
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
+
     bindTaskEvents(listItem,taskCompleted);
 }
 
