@@ -90,6 +90,8 @@ var editTask=function(){
     var label=listItem.querySelector(".li__label");
     var editBtn=listItem.querySelector(".li__button-edit");
     var containsClass=listItem.classList.contains("edit-mode");
+    editInput.classList.add('input-type-text');
+    label.classList.toggle('label-edit-mode');
     //If class of the parent is .editmode
     if(containsClass){
 

@@ -87,7 +87,7 @@ h3 {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.input-type-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +100,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.input-type-text:focus {
   color: #333;
 }
 
@@ -160,11 +160,11 @@ li {
 
 /* Edit Task */
 
-.edit-mode input[type="text"] {
+.edit-mode .input-type-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.label-edit-mode {
   display: none;
 }
