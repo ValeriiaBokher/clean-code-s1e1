@@ -19,6 +19,7 @@ addButton.classList.add('button');
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
+    listItem.classList.add('li');
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx

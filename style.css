@@ -52,7 +52,7 @@ ul {
   padding: 0px;
 }
 
-li, 
+.li, 
 .h3 {
   list-style: none;
 }
@@ -115,7 +115,7 @@ input,
 }
 
 /* Task list */
-li {
+.li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
